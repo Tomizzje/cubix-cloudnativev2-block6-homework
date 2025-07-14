@@ -12,6 +12,8 @@ ingress:
         - path: /
           pathType: Prefix
 
+loggingMode: stdout-json
+
 env:
 - name: BPL_JVM_THREAD_COUNT
   value: 100

@@ -12,6 +12,8 @@ ingress:
         - path: /
           pathType: Prefix
 
+loggingMode: stdout-json
+
 env:
 - name: SERVER_TOMCAT_THREADS_MAX
   value: 50
